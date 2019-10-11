@@ -11,7 +11,7 @@ import requests
 
 ENDPOINT = "https://sentry.prod.mozaws.net/api/0"
 EVENTS_ENDPOINT = ENDPOINT + "/projects/operations/fenix/events/"
-TOKEN = os.getenv("SENTRY_TOKEN")
+TOKEN = "SENTRY_TOKEN_HERE"
 HEADERS = {"Authorization": "Bearer " + TOKEN}
 MAX_PER_FILE = 25000
 

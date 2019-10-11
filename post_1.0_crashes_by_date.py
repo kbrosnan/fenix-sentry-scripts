@@ -20,9 +20,6 @@ def arch(event):
 
 
 if __name__ == "__main__":
-
-#    dist_filter = sys.argv[1]
-
     events = []
     for path in glob.glob("events/*.json"):
         with open(path) as f:
